@@ -37,13 +37,31 @@ print(f)
 print(type(e))
 
 print('\n4. List')
-# a. List is a collection which is ordered and changeable. Allows duplicate members. In Python lists are written with square brackets.
-inilist = [1, 2.5, 'tiga', 4]
-
+# List is a collection which is ordered and changeable. In Python lists are written with square brackets.
+inilist = [1, 2.5, 'tiga', 4, True]
 print(inilist)
 print(type(inilist))
-# 5. Tuple
 
-# 6. Set
+print('\n5. Tuple')
+# Tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
+inituple = (1, 2.5, 'tiga', 4, True)
+print(inituple)
+print(type(inituple))
 
-# 7. Dictionary
+print('\n6. Set')
+# A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
+iniset = {1, 2.5, 'tiga', 4, True}
+print(iniset)
+print(type(iniset))
+
+print('\n7. Dictionary')
+# A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+kamus_ind_eng = {
+    'anak' : 'son',
+    'istri' : 'wife',
+    'ayah' : 'father',
+    'ibu' : 'mother'
+}
+print(kamus_ind_eng)
+print(type(kamus_ind_eng))
+
