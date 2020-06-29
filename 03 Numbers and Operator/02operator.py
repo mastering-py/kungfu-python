@@ -1,5 +1,5 @@
 # 2. Operators
-print('\nArithmetic Operators and maths')
+print('Arithmetic Operators and maths')
 print('Addition:')
 add1 = 3
 add2 = 3
