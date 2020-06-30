@@ -1,5 +1,4 @@
 # 1. Strings
-# To display a string literal, we can use the print() function
 print('This is using single quotation marks')
 print("This is using double quotation marks")
 print("""
@@ -14,7 +13,7 @@ Adam: "I'm going to school"
 Mark: "How do you go to school?"
 Adam: "I go to school by bus"
 """)
-print() # we can create a line space using empty print() function
+print() # we can create a new line using empty print()
 
 # 2. Escape Characters
 print('You can create \na new line...')
@@ -33,4 +32,3 @@ text2 = 'Name'
 print(text1 + text2) # without space
 print(text1 , text2) # there is a space in the text
 print('%s %s' % (text1, text2))
-print(f'{text1} {text2}')
