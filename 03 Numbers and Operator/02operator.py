@@ -57,7 +57,6 @@ print(3 + 2 * 4) # 4 * 2 = 8, 8 + 3 = 11
 print((3 + 2) * 4) # 3 + 2 = 5, 5 * 4 = 20
 print((3 + 2) ** 4)
 
-
 print('\nComparison Operators')
 # Comparison operators are used to compare two values:
 print(4 > 5)
@@ -75,6 +74,16 @@ print(4 > 5 and 20 != 10) #false and true -> 0 & 1 = 0 (false)
 # 2. or
 # Returns True if one of the statements is true
 print(3 != 2 or 1 > 2)  #true or false -> 1 | 0 = 1 (true)
+
+print('\nMembership Operators')
+# Used to test if a sequence is presented in an object
+# 1. in
+Text = 'Hello World'
+print('Hello' in Text)
+print('Wall' in Text)
+# 2. not in
+print('Halo' not in Text)
+print('World' not in Text)
 
 print('\nBitwise Operators')
 # Bitwise operators are used to compare (binary) numbers:
