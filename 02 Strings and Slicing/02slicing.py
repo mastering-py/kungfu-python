@@ -20,6 +20,7 @@ example8 = text1[-1:] # get the characters start from position -1 to the last ch
 example9 = text1[:-1] # get the characters start from the first character to position -1 (position -1 not included)
 example10 = text1[-5:11] # get the characters start from position -5 to the position 11 (etc and not included)
 example11 = text1[1:-2] # # get the characters start from position 1 to the position -2 (position -2 not included)
+example12 = f'{text1[0:6]}Indonesia' # formatted string and slicing
 
 print(example1)
 print(example2)
@@ -32,4 +33,4 @@ print(example8)
 print(example9)
 print(example10)
 print(example11)
-
+print(example12)
