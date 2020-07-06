@@ -100,7 +100,7 @@ print(data9)
 print()
 
 print('copy()')
-# Returns a copy of the list
+# Returns a copy of the list. Same as list reference
 data10 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
 a = data10.copy() # a will not be a reference to data10
 a[0] = 'sepuluh'
@@ -109,7 +109,7 @@ print(a)
 print()
 
 print('count()')
-# Return the number of times the value "dua" appears the data11 list. Same as list reference
+# Return the number of times the value "dua" appears the data11 list
 data11 = [10, 1, 'dua', 200, 4.5, True, 'dua', 'Hello World', 'dua', 3, 100]
 b = data11.count('dua')
 print(b)
