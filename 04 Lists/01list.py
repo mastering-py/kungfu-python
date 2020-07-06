@@ -81,7 +81,7 @@ print(myList8)
 del myList8[1:3]
 print(myList8)
 # del myList8 # the del keyword can also delete the list completely
-# print(myList8) # # this will cause an error because you have succsesfully deleted "thislist".
+# print(myList8) # # this will cause an error because you have succsesfully deleted "myList8".
 print()
 
 # 6. Multidimensional list and access items
