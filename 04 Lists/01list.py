@@ -6,7 +6,7 @@ print(myList1)
 print()
 
 # 2. Access elements (items) and slicing
-myTuple3 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
+myList2 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
 """
                0  1    2     3    4    5          6       etc
             ----------------------------------------------
@@ -15,17 +15,17 @@ myTuple3 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
         etc   -7  -6    -5   -4   -3    -2       -1
 
 """
-print(myTuple3[0])  # using index to access the list items. the index is start from 0
-print(myTuple3[0:5])  # by a colon, get the characters start from position 0 to position 5 (position 5 not included)
-print(myTuple3[1:6])  # the last character is space
-print(myTuple3[-4])  # negative indexes is start from -1
-print(myTuple3[-5:-3])  # get the characters start from position -5 to position -3 (get position -4. position -3 not included)
-print(myTuple3[4:])  # get the characters start from position 4 to the last character
-print(myTuple3[:4])  # get the characters start from the first character to position 4 (position 4 not included)
-print(myTuple3[-1:])  # get the characters start from position -1 to the last character
-print(myTuple3[:-1])  # get the characters start from the first character to position -1 (position -1 not included)
-print(myTuple3[-5:11])  # get the characters start from position -5 to the position 11 (etc and not included)
-print(myTuple3[1:-2])   # get the characters start from position 1 to the position -2 (position -2 not included)
+print(myList2[0])  # using index to access the list items. the index is start from 0
+print(myList2[0:5])  # by a colon, get the characters start from position 0 to position 5 (position 5 not included)
+print(myList2[1:6])  # the last character is space
+print(myList2[-4])  # negative indexes is start from -1
+print(myList2[-5:-3])  # get the characters start from position -5 to position -3 (get position -4. position -3 not included)
+print(myList2[4:])  # get the characters start from position 4 to the last character
+print(myList2[:4])  # get the characters start from the first character to position 4 (position 4 not included)
+print(myList2[-1:])  # get the characters start from position -1 to the last character
+print(myList2[:-1])  # get the characters start from the first character to position -1 (position -1 not included)
+print(myList2[-5:11])  # get the characters start from position -5 to the position 11 (etc and not included)
+print(myList2[1:-2])   # get the characters start from position 1 to the position -2 (position -2 not included)
 print()
 
 # 3. Change items value
@@ -65,13 +65,13 @@ print()
 # 5. Removing items
 # a. Using empty list
 myList7 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
-# myTuple4[3] = [] # we can't remove the item by using this
+# myTuple7[3] = [] # we can't remove the item by using this
 myList7[:1] = []
 print(myList7)
 myList7[1:3] = []
 print(myList7)
-# myTuple4[2:2] = [] # we can't remove the item by using this
-# print(myTuple4)
+# myTuple7[2:2] = [] # we can't remove the item by using this
+# print(myTuple7)
 
 # b. Using del keyword
 # we can also remove items using del keyword
@@ -80,8 +80,8 @@ del myList8[3] # remove index 3 item
 print(myList8)
 del myList8[1:3]
 print(myList8)
-# del myTuple4 # the del keyword can also delete the list completely
-# print(myTuple4) # # this will cause an error because we have succsesfully deleted "myTuple4".
+# del myList8 # the del keyword can also delete the list completely
+# print(myList8) # # this will cause an error because we have succsesfully deleted "myList8".
 print()
 
 # 6. Multidimensional list and access items
