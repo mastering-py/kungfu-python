@@ -43,6 +43,6 @@ print()
 
 print('index()')
 # Returns the index of the first element with the specified value
-data2 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
+data2 = (10, 1, 'dua', 200, 4.5, True, 'Hello World')
 b = data2.index(4.5)
 print(b)
