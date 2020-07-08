@@ -36,6 +36,8 @@ print()
 mySet7 = {10, 1, 'dua', 200, 4.5, True, 'Hello World'}
 mySet7.remove(200)
 print(mySet7)
+mySet7.discard('Hello World')
+print(mySet7)
 mySet8 = {10, 1, 'dua', 200, 4.5, True, 'Hello World'}
 # We can't remove the set items. But we can delete the set completely
 del mySet8
