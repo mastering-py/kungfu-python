@@ -118,7 +118,7 @@ print(addTotal)
 mul = [1, 4.5, True] * 3
 print(mul)
 
-# in, not in
+# Membership
 membership = [10, 'dua', 200, 'Hello World']
 print('Hello World' in membership)
 print(10 not in membership)
