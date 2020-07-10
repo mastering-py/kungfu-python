@@ -41,6 +41,7 @@ dict3['istri'] = 'bojo'
 dict3['ayah'] = 'bapa'
 dict3['ibu'] = 'emma'
 print(dict3)
+print()
 
 # 4. Add items (keys and values)
 dict4 = {
@@ -75,5 +76,69 @@ dict6 = {
     'ayah': 'father',
     'ibu': 'mother'
 }
+# the parameter is in key not value
 print('anak' in dict6)
-print('wife' not in dict6)
+print('wife' in dict6)
+print()
+
+# 7. Other samples in dictionaries
+# a. Inline dictionaries
+dict7 = {1: 'satu', 2: 'dua', 3: 'tiga'}
+print(dict7)
+print()
+
+# b. Nested dictionaries
+dict8 = {
+    'satu': {
+        101: 'saddam',
+        102: 'rahmat',
+        103: 'fuad',
+        104: 'ali'
+    },
+    'dua': {
+        105: 'along',
+        106: 'wati',
+        107: 'aini',
+        108: 'yati',
+        109: 'fitri',
+        110: ['bonda', 'ratna']
+    }
+}
+print(dict8)
+print(dict8['satu'])
+print(dict8['dua'][109])
+print(dict8['dua'][110][1])
+print()
+
+# c. Memberlist dictionaries
+dict9 = {
+    'NIM': 110,
+    'Nama': 'Saddam Husein',
+    'Alamat': 'Keuangan Negara St.',
+    'Kode Pos': 85111
+}
+dict10 = {
+    'NIM': 111,
+    'Nama': 'Rahmat Husein',
+    'Alamat': 'Keuangan Negara St. No. 2',
+    'Kode Pos': 85113
+}
+memberDict = {110: dict9, 111: dict10}
+print(memberDict)
+print(memberDict[111]['Kode Pos'])
+print()
+
+# d. Empty dictionaries
+dict11 = {}
+dict11['anak'] = 'son'
+dict11['istri'] = 'wife'
+dict11['ayah'] = 'father'
+dict11['ibu'] = 'mother'
+print(dict11)
+
+# e. Constructor dictionaries
+dict12 = dict(satu= 1, dua= 2, tiga= 3, empat='empat')
+print(dict12)
+# integer as keys
+dict13 = dict({1: "saddam", 2: "rahmat", 3: "fuad"})
+print(dict13)
