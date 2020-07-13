@@ -31,5 +31,5 @@ text2 = 'Name'
 
 print(text1 + text2) # without space
 print(text1 , text2) # there is a space in the text
-print('%s %s' % (text1, text2))
-print(f'{text1} {text2}')
+print('%s %s' % (text1, text2)) # formatted string 1
+print(f'{text1} {text2}') # formatted string 2
