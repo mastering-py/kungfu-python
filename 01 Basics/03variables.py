@@ -24,3 +24,17 @@ Aku = 'This is my data 2'
 
 print(aku)
 print(Aku)
+
+# 4. Swap values of variables
+a = 1
+b = 2
+
+a, b = b, a
+
+print(a)
+print(b)
+
+c, d = 'satu', 'dua'
+
+print(c)
+print(d)
