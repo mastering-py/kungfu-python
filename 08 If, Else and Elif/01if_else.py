@@ -6,6 +6,7 @@ name1 = 'saddam'
 name2 = 'rahmat'
 others = ['fuad', 'fitri']
 name3 = 'fitria'
+con1 = True
 
 if name1 == 'saddam':
     print(f'His name is {name1}') # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.
@@ -21,6 +22,17 @@ if name3 in others:
 
 if name3 not in others:
     print(f'There is no {name3} in others')
+
+if name1: # without operator. it's refer to name1 == 'saddam' is True condition
+    print('Your name is saddam')
+#print(name1 == 'saddam')
+
+if con1:
+    print('Go ahead')
+
+# sample of false condition. it will not execute:
+if name1 == name2:
+    print('There are same')
 
 print('-' * 100)
 
