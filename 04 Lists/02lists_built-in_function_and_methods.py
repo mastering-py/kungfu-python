@@ -66,8 +66,10 @@ print()
 print('pop()')
 # Removes the element at the specified position
 data5 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
-data5.pop(-2)
+# data5.pop() # without specified index, it will remove the last item
+tes = data5.pop(-3)
 print(data5)
+print(tes)
 print()
 
 print('reverse()')
