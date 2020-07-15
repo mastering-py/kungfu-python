@@ -70,10 +70,10 @@ print('\nLogical Operators')
 # Logical operators are used to combine conditional statements:
 # 1. and
 # Returns True if both statements are true
-print(4 > 5 and 20 != 10) #false and true -> 0 & 1 = 0 (false)
+print(4 > 5 and 20 != 10) #false and true -> 0 and 1 = 0 (false). & is different between and (operator). and is logical operator. & is bitwise operator.
 # 2. or
 # Returns True if one of the statements is true
-print(3 != 2 or 1 > 2)  #true or false -> 1 | 0 = 1 (true)
+print(3 != 2 or 1 > 2)  #true or false -> 1 or 0 = 1 (true). | is different between or. or is logical operator. | is bitwise operator.
 
 print('\nMembership Operators')
 # Used to test if a sequence is presented in an object
