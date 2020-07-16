@@ -10,7 +10,7 @@ elif 60 <= score < 70:
     print('You got C')
 elif 50 <= score < 60:
     print('You got D, reexam')
-elif score > 100:
+elif score < 0 or score > 100:
     print('Enter the correct value')
 else:
     print('Your passing grade is Unsatisfactory')
