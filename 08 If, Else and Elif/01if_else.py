@@ -17,7 +17,7 @@ if name1 != name2:
 if 'a' in name2:
     print(f"There is 'a' in {name2}")
 
-if name3 in others:
+if name3 in others: # sample of false condition. it will not execute:
     print(f'My name is {name3}')
 
 if name3 not in others:
@@ -30,8 +30,7 @@ if name1: # without operator. it's refer to name1 == 'saddam' is True condition
 if con1:
     print('Go ahead')
 
-# sample of false condition. it will not execute:
-if name1 == name2:
+if name1 == name2: # sample of false condition. it will not execute:
     print('There are same')
 
 print('-' * 100)
