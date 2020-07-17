@@ -19,6 +19,7 @@ if 'a' in name2:
 
 if name3 in others: # sample of false condition. it will not execute:
     print(f'My name is {name3}')
+print('My name is Along') # this is not part of if statement
 
 if name3 not in others:
     print(f'There is no {name3} in others')
