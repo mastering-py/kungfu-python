@@ -3,6 +3,7 @@
 username = input('Input your username: ')
 
 print(username)
+print(type(username)) # the input data type is string
 
 # Math in input
 a = int(input('Input number 1: '))
