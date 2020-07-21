@@ -3,10 +3,10 @@
 # Sample 1
 idFoods = [['bakso', 'nasi padang'], ['soto', 'coto makassar'], ['gule', 'rendang']]
 
-for i in idFoods:
-    print(i) # Layer 1
-    for j in i:
-        print(j) # Layer 2
+for i in idFoods: # Layer 1
+    print(i)
+    for j in i: # Layer 2
+        print(j)
 
 print('-' * 100)
 
