@@ -2,7 +2,7 @@
 
 # 1. Functions
 print('To determine how many items a set has, use the len() function:')
-set1 = {10, 1, 'dua', 200, 4.5, True, 'Hello World'} # True == 1
+set1 = {10, 1, 'dua', 200, 4.5, 4.5, 4.5, True, 'Hello World'} # True == 1. Sets never contain duplicate items
 print(len(set1))
 print()
 
