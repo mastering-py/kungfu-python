@@ -1,8 +1,8 @@
 # A set is a collection which is unordered and unindexed, so we cannot be sure in which order the items will appear. In Python sets are written with curly brackets.
 
 # 1. Create set
-mySet1 = {10, 1, 'dua', 200, 4.5, True, 'Hello World'}
-print(mySet1)
+mySet1 = {10, 1, 'dua', 200, 4.5, 4.5, 4.5, True, 'Hello World'}
+print(mySet1) # Sets never contain duplicate items
 print(type(mySet1))
 print()
 
