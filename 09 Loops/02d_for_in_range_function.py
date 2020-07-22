@@ -1,3 +1,5 @@
+# To loop through a set of code a specified number of times, we can use the range() function
+
 # Sample 1
 # Without iterable
 # Type 1
