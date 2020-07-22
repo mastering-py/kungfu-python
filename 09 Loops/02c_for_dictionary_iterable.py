@@ -58,3 +58,16 @@ for n in idData4.values():
 
 for o, p in zip(key, value):  # zip() function is mainly used to combining data of two iterable elements together
     print(f'{o} : {p}')
+
+print('-' * 100)
+
+# Sample 4 (Simple way to combine with function)
+idData5 = {
+    'name': 'saddam',
+    'age': 30,
+    'country': 'indonesia',
+    'score': 99
+}
+
+for q, r in idData5.items():
+    print(f'{q} : {r}')
