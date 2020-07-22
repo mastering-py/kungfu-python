@@ -20,8 +20,19 @@ print('-' * 100)
 
 # Sample 2
 # With iterable
-idFoods1 = ['bakso', 'nasi padang', 'soto', 'coto makassar']
-lenidF1 = len(idFoods1)  # using len() function to determine how many items a list has
+# Type 1 String as iterable
+idName1 = 'saddam'
 
-for m in range(lenidF1):
+for n in range(len(idName1)):
+    print(idName1[n])
+
+print('-' * 100)
+
+# Type 2 List as iterable
+idFoods1 = ['bakso', 'nasi padang', 'soto', 'coto makassar']
+lenIdf1 = len(idFoods1)  # using len() function to determine how many items a list has
+
+for m in range(lenIdf1):
     print(idFoods1[m])
+
+print('-' * 100)
