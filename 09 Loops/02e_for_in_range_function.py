@@ -33,6 +33,6 @@ idFoods1 = ['bakso', 'nasi padang', 'soto', 'coto makassar']
 lenIdf1 = len(idFoods1)  # using len() function to determine how many items a list has
 
 for m in range(lenIdf1):
-    print(idFoods1[m])
+    print(f'{m + 1}. {idFoods1[m]}')
 
 print('-' * 100)
