@@ -1,9 +1,11 @@
+# Combine for with if
+
 # Sample 1
 idFoods1 = ['bakso', 'nasi padang', 'soto', 'coto makassar']
 
 for j in idFoods1:
     print(j)
-    if j =='soto':
+    if j == 'soto':
         print(f'--- {j} was found ---')
 
 print('-' * 100)
@@ -25,5 +27,3 @@ for k in range(len(idFoods2)):
     print(idFoods2[k])
     if idFoods2[k] =='nasi padang':
         print(f'--- {idFoods2[k]} was found ---')
-
-print('-' * 100)
