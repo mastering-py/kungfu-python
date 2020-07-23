@@ -113,7 +113,7 @@ add1 = [10, 'dua', 200, 'Hello World']
 add2 = [1, 4.5, True]
 addTotal = add1 + add2
 print(addTotal)
-add3 = [add1 + add2]
+add3 = [add1 + add2] # 2 dimensions list
 print(add3)
 
 # multiplication
