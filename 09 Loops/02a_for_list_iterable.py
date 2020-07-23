@@ -6,4 +6,8 @@ idFoods1 = ['bakso', 'nasi padang', 'soto', 'coto makassar']
 for i in idFoods1:
     print(i)
 
-
+# # Using for (without range) to numeric data type will be error
+# num1 = 5
+#
+# for i in (num1):
+#     print(i)
