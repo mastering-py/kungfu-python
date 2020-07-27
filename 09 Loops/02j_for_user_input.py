@@ -1,5 +1,6 @@
 # Sample of for with user input
 
+# Sample 1
 ls = int(input('How many items of list did you want?: '))
 empty1 = []
 
@@ -11,3 +12,14 @@ print()
 print('-' * 20, 'Your items:', '-' * 20, )
 for j in empty1:
     print(j)
+
+print('-' * 100)
+
+# Sample 2
+num1 = int(input('Lower limit: '))
+num2 = int(input('Upper limit: '))
+rnum = int(input('Increment: '))
+
+print('- Value -')
+for k in range(num1, num2, rnum):
+    print(k)
