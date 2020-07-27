@@ -9,7 +9,7 @@ text1 = 'Hello World'
 etc  -11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1
 """
 
-example1 = text1[0] # access string items. the index is start from 0
+example1 = text1[0] # access string items using index 0. the index is start from 0
 example2 = text1[0:5] # by a colon, get the characters start from position 0 to position 5 (position 5 not included)
 example3 = text1[1:6] # the last character is space
 example4 = text1[-4] # negative indexes is start from -1
