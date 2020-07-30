@@ -1,7 +1,7 @@
 # Sample of for with user input
 
 # Sample 1
-ls = int(input('How many items of list did you want?: '))
+ls = int(input('How many items of list that you want?: '))
 empty1 = []
 
 print('Insert list:')
