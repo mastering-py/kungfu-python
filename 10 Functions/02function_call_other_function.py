@@ -16,6 +16,25 @@ hai()
 print('-' * 100)
 
 # Sample 2
+def function1():
+    print("Hello i'm function1")
+
+
+def function2():
+    print("Hello i'm funciton 2. Let we call function 1")
+    function1()
+
+
+def main():
+    print('This is function main. Let we call function 2')
+    function2()
+
+
+main()
+
+print('-' * 100)
+
+# Sample 3
 def items():
     ls = int(input('How many items of list that you want?: '))
     empty1 = []
