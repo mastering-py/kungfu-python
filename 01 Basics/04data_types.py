@@ -44,9 +44,12 @@ print(type(inilist))
 
 print('\n5. Tuple')
 # Tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.
-inituple = (1, 2.5, 'tiga', 4, True)
-print(inituple)
-print(type(inituple))
+inituple1 = (1, 2.5, 'tiga', 4, True)
+inituple2 = 1, 2.5, 'tiga', 4, True  # a value without any brackets is also a tuple
+print(inituple1)
+print(type(inituple1))
+print(inituple2)
+print(type(inituple2))
 
 print('\n6. Set')
 # A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.
