@@ -16,3 +16,17 @@ Sample 1 notes:
 - count + 1 will make count start on 1
 - with if condition the while loop will stop at 10 by changing the var1 to False
 """
+
+print('-' * 100)
+
+# Sample 2
+choice = True
+
+while choice:
+    a = int(input('Input value 1: '))
+    b = int(input('Input value 2: '))
+    print(f'{a} + {b} = {a + b}')
+    choice = input('Want to repeat (y/n)?: ')
+    if 'Y' != choice != 'y':
+        choice = False
+    print()
