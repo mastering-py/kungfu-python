@@ -19,7 +19,19 @@ print(a)  # assign a function to a variable will view the 'hello world' stings w
 
 print('-' * 100)
 
-# Sample 2 (Difference between View the return value using print() function and by assign to the variables method)
+# Sample 2 (Simple numeric return value)
+def val1():
+    total = 12 + 3
+    return total
+
+
+print(val1())  # View the return value using print()
+a = val1()
+print(a)  # by assign to the variables
+
+print('-' * 100)
+
+# Sample 3 (Difference between View the return value using print() function and by assign to the variables method)
 def val1():
     print('Input 1 ')
     value1 = int(input('Input value: '))
@@ -41,7 +53,7 @@ print(f'{a} + {b} = {a + b}')  # using assign to the variables, it will only tak
 
 print('-' * 100)
 
-# Sample 3 (Return list value and combine with for loop)
+# Sample 4 (Return list value and combine with for loop)
 def items():
     list1 = ['satu', 'dua', 'tiga', 'empat']
     return list1
@@ -56,7 +68,7 @@ main()
 
 print('-' * 100)
 
-# Sample 4 (Return tuple value)
+# Sample 5 (Return tuple value)
 def Tampilkan():
     return 1, 2, 3, 'wadi', 3, 2, 1  # we can let the return value using tuple
 
