@@ -93,11 +93,11 @@ else:
 
 print('-' * 100)
 
-#6. Wrong if else
+#6. invalid if else
 number3 = int(input('Input number: '))
 
 if number3 > 0:
     if number3 % 2 == 0:
         print('Even number')
-else: # something wrong when we input less than number3 and odd numbers, the else statement must relies on indentation
+else: # something invalid when we input less than number3 and odd numbers, the else statement must relies on indentation
     print('Odd numbers')
