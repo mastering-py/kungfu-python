@@ -27,8 +27,10 @@ def args(a, b, *c):
 
 
 args(10, 2)
+args(b = 'sepuluh', a = 'dua') # we can use keyword only argument for positional arguments, without any non keywords arguments inside the parentheses
 args(1, 2, 3, 4, 'lima', 6, 7)  # (*c = 3, 4, 'lima', 6, 7). captured by python as a tuple
 
 # Sample 3: Invalid non keyword arguments
-# def args(a, *b, *c)  # two non keywords arguments in parameter
+# def args(a, *b, *c)  # two non keywords arguments in parameter are invalid
 # def args(*a, b, c)  # first slots given for positional arguments
+# def args(a, *b, c)   # positional arguments (a and c) must follow by non keywords arguments (*b)
