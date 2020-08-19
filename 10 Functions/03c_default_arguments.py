@@ -4,7 +4,7 @@ Allow us to provide defaults for corresponding formal arguments in the function 
 uses these defaults if corresponding actual arguments are not passed in the function call.
 """
 
-# Sample 1 (One argument)
+# Sample 1 (Single argument)
 def args(a = 10):
     print(f'This is number {a}')
 
@@ -19,7 +19,7 @@ def args(a, b = 'Morning'):
     print(f'Hello Mr. {a}. Good {b}!')
 
 
-args('Rahmat')  # a = 'Rahmat'. If the b argument is not set, the default parameter given in the definition will be used
+args('Rahmat')  # a = 'Rahmat'. If the b argument is not set, the default parameter given in the parameter will be used
 args('Saddam', 'Evening')
 args(b = 'Afternoon', a = 'fuad')  # the arguments set by keywords
 
