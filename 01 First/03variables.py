@@ -18,12 +18,16 @@ my data = 'This is my data'
 # 2. Output the variables
 print(data)
 
+print('-' * 100)
+
 # 3. Variable names are case sensitive
 aku = 'This is my data 1'
 Aku = 'This is my data 2'
 
 print(aku)
 print(Aku)
+
+print('-' * 100)
 
 # 4. Swap values of variables
 a = 1
@@ -38,3 +42,8 @@ c, d = 'satu', 'dua'
 
 print(c)
 print(d)
+
+e = 'tiga'
+f = e
+
+print(f)
