@@ -1,4 +1,4 @@
-
+#  Functions can be used as arguments in other functions in Python.
 
 # Sample 1
 def add1():
@@ -24,7 +24,7 @@ main1()
 
 print('-' * 100)
 
-# Sample 2 (Math operational)
+# Sample 2
 def add2(a, b):
     total = a + b
     return total
@@ -53,33 +53,18 @@ def main2():
         val1 = int(input('Input value 1: '))
         val2 = int(input('Input value 2: '))
 
-        add2(val1, val2)
         view2(add2, val1, val2)
 
     elif math2 == 2:
         val1 = int(input('Input value 1: '))
         val2 = int(input('Input value 2: '))
 
-        sub2(val1, val2)
         view2(sub2, val1, val2)
 
     else:
-        return
+        print('Press number 1 or 2 only \nGood Bye!')
 
 
 main2()
 
 print('-' * 100)
-
-# Sample 3
-def sq(func, x):  # func = 4, x = 2
-    exp = x ** 2  # exp = 4
-    return func(exp)  # call f(x)
-
-
-def f(x):  # x = 4
-    return x ** 2  # 2 ** 2 = 4
-
-
-main3 = sq(f, 2)
-print(main3)
