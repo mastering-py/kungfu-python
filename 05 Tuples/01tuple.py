@@ -25,7 +25,7 @@ myTuple4 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
 # We can access tuple items by referring to the index number, inside square brackets
 print(myTuple4[0])  # using index to access the list items. the index is start from 0
 print(myTuple4[0:5])  # by a colon, get the characters start from position 0 to position 5 (position 5 not included)
-print(myTuple4[1:6])  # the last character is space
+print(myTuple4[1:6])  # get the characters start from position 1 to position 6 (position 6 not included)
 print(myTuple4[-4])  # negative indexes is start from -1
 print(myTuple4[-5:-3])  # get the characters start from position -5 to position -3 (get position -4. position -3 not included)
 print(myTuple4[4:])  # get the characters start from position 4 to the last character
