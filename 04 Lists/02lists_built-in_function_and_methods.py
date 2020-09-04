@@ -58,8 +58,8 @@ print()
 
 print('remove()')
 # Removes the item with the specified value
-data4 = [10, 1, 'dua', 200, 4.5, True, 'Hello World']
-data4.remove('Hello World')
+data4 = [10, 1, 'dua', 'Hello World', 200, 4.5, True, 'Hello World']
+data4.remove('Hello World')  # if there are 2 same items in a list. it will remove the first item
 print(data4)
 print()
 
