@@ -23,12 +23,12 @@
 # print(subtraction(10, 2))
 
 # c. Using a modul with all attributes
-# from modul1 import *
+from modul1 import *
+
+print(title)
+print(addition(10, 2))
+print(subtraction(10, 2))
 #
-# print(title)
-# print(addition(10, 2))
-# print(subtraction(10, 2))
-# #
 # """
 # Sample 3c note:
 # # It is recommended to not to use import * because it ignore the risk of namespace collisions.

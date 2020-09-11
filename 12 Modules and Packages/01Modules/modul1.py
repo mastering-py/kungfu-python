@@ -1,4 +1,4 @@
-title = 'Arithmetic Operators:'
+title = 'Arithmetics Operators:'
 
 def addition(a, b):
     total = f'{a} + {b} = {a + b}'
