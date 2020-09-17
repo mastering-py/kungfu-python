@@ -7,3 +7,6 @@ def addition(a, b):
 def subtraction(a, b):
     total = f'{a} - {b} = {a - b}'
     return total
+
+if __name__ == '__main__':
+    print(dir())
