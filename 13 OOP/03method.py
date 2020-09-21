@@ -1,9 +1,9 @@
 # Sample 1
 class Heroes:
     # default attributes
-    name = 'name'
-    power = 'max'
-    health = 'max'
+    name = None
+    power = None
+    health = None
 
     def skill(self, value):
         print(f'Attack: {value}')
