@@ -32,3 +32,14 @@ for k in range(len(words1)):
     count1 += 1
 
 print(f'\nThere are {count1} space character in the words')
+
+print('-' * 100)
+
+# Sample 4: Combine while boolean with break and continue
+while True:
+    press1 = input('Hello. Press Y to repeat or N to Stop: ')
+
+    if press1 == 'N' or press1 == 'n':
+        break
+    else:
+        continue
