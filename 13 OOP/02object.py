@@ -1,11 +1,11 @@
-# Instantiate Objects in Python
+# Instantiate Objects / Instances in Python
 
 # Sample 1
 class Heroes1:
     pass
 
 
-# Create / instantiate an object
+# Create / instantiate an objects
 a = Heroes1()
 b = Heroes1()
 
@@ -54,7 +54,7 @@ print(Heroes3.health)
 print()
 
 # Access the class variables by object
-print(batman.name)  # All objects of that class can access to the class variables. It is because the class variables are public variables
+print(batman.name)  # All objects of Heroes3 class can access into the class variables. It is because the class variables accessibility is public
 print(batman.power)
 print(batman.health)
 
