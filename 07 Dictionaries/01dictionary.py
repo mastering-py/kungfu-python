@@ -1,4 +1,5 @@
-# A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
+# A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with
+# curly brackets, and they have keys and values.
 
 
 # 1. Create dictionary
@@ -29,7 +30,7 @@ print(dict2[4.0])
 print(dict2)
 print()
 
-# 3. Change items values
+# 3. Change / assign items values
 dict3 = {
     'anak': 'son',
     'istri': 'wife',
@@ -128,7 +129,7 @@ print(memberDict)
 print(memberDict[111]['Kode Pos'])
 print()
 
-# d. Empty dictionaries
+# d. Assign to empty dictionaries
 dict11 = {}
 dict11['anak'] = 'son'
 dict11['istri'] = 'wife'
@@ -142,3 +143,12 @@ print(dict12)
 # integer as keys
 dict13 = dict({1: "saddam", 2: "rahmat", 3: "fuad"})
 print(dict13)
+
+# f. Create dictionary by list as value
+list1 = [1, 2, 3, 4]
+dict12 = {}
+dict12['satu'] = list1[0]
+dict12['dua'] = list1[1]
+dict12['tiga'] = list1[2]
+dict12['empat'] = list1[3]
+print(dict12)
