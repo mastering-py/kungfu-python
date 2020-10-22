@@ -7,10 +7,11 @@ print("""
 Triple Quotation Mark
 """) # multiline string
 
-# b. Assign string to a variable and verify the data type using type() function
+# b. Assign string to a variable and verify the data type using type() or isinstance() function
 a = 'This is string'
 print(a)
 print(type(a))
+print(isinstance(a, int))  # false because (a) is a string
 
 print('\n2. Numeric')
 # Integer
