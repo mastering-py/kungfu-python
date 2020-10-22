@@ -47,3 +47,5 @@ e = 'tiga'
 f = e
 
 print(f)
+print(isinstance(f, int))  # to confirm the variable f is integer
+print(f is int)  # same as isinstance() function
