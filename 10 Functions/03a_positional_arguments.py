@@ -6,7 +6,7 @@ just separate them with a comma.
 
 """
 Positional Arguments:
-These are just variables (identifiers) that values of arguments passed into function by their position in the function call
+These are variables (identifiers) that values of arguments passed into function by their position in the function call
 """
 
 # Sample 1 (One argument)
@@ -29,7 +29,7 @@ Sample 1 notes:
 
 print('-' * 100)
 
-# Sample 2 (Many arguments)
+# Sample 2 (Multiple arguments)
 def hello(time, name):  # (parameters)
     print(f'Good {time}, Mr/Mrs. {name}')
 
@@ -143,4 +143,3 @@ def main():
 
 
 main()
-
