@@ -44,3 +44,9 @@ g = tuple(list1)
 print(g)
 print(type(g))
 print()
+
+#7. Casting using string to list
+word1 = 'hello'
+h = list(word1)
+print(h)
+print(type(h))
