@@ -67,3 +67,10 @@ print('replace')
 # Returns a string where a specified value is replaced with a specified value
 text10 = 'My name is saddam'
 print(text10.replace('saddam', 'adam'))
+print()
+
+print('center')
+# The center() method will center align the string, using a specified character (space is default)
+# as the fill character.
+text11 = 'Saddam Husein'
+print(text11.center(20, '-'))  # total of character include text11 string is 20
